@@ -1,0 +1,5 @@
+{
+    "rc": 4,
+    "stdout": "\nno tests ran in 0.00s\n",
+    "stderr": "ERROR: file or directory not found: None\n\n"
+}
