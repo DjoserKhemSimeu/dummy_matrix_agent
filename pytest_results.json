@@ -1,0 +1,5 @@
+{
+    "rc": 0,
+    "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.12.3, pytest-9.0.2, pluggy-1.6.0\nrootdir: /tmp/Sim_LLM_benchmark\nconfigfile: pyproject.toml\nplugins: anyio-4.12.0, timeout-2.4.0, langsmith-0.6.0\ncollected 1 item\n\ntest_app.py .                                                            [100%]\n\n============================== 1 passed in 0.15s ===============================\n",
+    "stderr": ""
+}
