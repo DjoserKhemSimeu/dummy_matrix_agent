@@ -17,9 +17,9 @@ def multiply_matrices(A, B):
     for i in range(m):
         for j in range(p):
             total = 0
-            for k in range(len(B)):  # should be len(A[0])
+            for k in range(len(A[0])):  # should be len(A[0])
                 # Intentional bug: wrong indices
-                total += A[k][i] * B[j][k]
+                total += A[i][k] * B[k][j]
             C[i][j] = total
 
     return C
