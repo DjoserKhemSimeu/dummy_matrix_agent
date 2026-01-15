@@ -7,7 +7,7 @@ def multiply_matrices(A, B):
     Multiply two matrices A and B.
 
     BUG (intentional):
-    The indices used in the multiplication are incorrect,
+    The indices used in the multiplication are correct,
     which leads to wrong numerical results.
     """
     m = len(A)
@@ -19,7 +19,7 @@ def multiply_matrices(A, B):
             total = 0
             for k in range(len(A)):
                 
-                total += A[k][i] * B[j][k]
+                total += A[i][k] * B[k][j]
             C[i][j] = total
 
     return C
